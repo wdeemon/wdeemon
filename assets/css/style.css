@@ -148,39 +148,34 @@ body {
 h3 {
     font-size: 2em;
     color: #000;
-    text-align: left;
-}
+    text-align: left;}
 
 .p1 {
     font-size: 1.25em;
     margin-bottom: 0;
     text-align: justify;
-    text-indent: 30px;
-}.p {
+    text-indent: 30px;}
+
+.p {
     font-size: 1.25em;
-    margin-bottom: 0;
-}
+    margin-bottom: 0;}
 
 .text-center {
-    text-align: center;
-}
+    text-align: center;}
 
 .hr-50 {
     width: 70%;
-    align-content: center;    
-}
+    align-content: center;    }
 
 abbr {
     border-bottom: 0px dashed red; /* Пунктирное подчеркивание текста */
-    color: #000; /* Темно-синий цвет текста */
-   }
+    color: #000; /* Темно-синий цвет текста */   }
 
 
 .list-inline{
     padding-left: 0;
     margin-left: -5px;
-    list-style: none;
-}
+    list-style: none; }
     
 .social-icons {
     height: 40px;
@@ -190,15 +185,10 @@ abbr {
     padding: 10px;
     transition-duration: .3s;
     transition-property: all;
-    transition-timing-function: cubic-bezier(.7,1,.7,1);
-}
+    transition-timing-function: cubic-bezier(.7,1,.7,1); }
 
-strong {
-    font-weight: 600;
-}
-.b1 {
-    font-weight: 100;
-}
+strong {font-weight: 600; }
+.b1 { font-weight: 100; }
 
 
 
