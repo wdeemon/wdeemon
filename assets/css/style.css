@@ -101,6 +101,7 @@ body {
 	margin-left: -100%;
 	position: relative;
 	background: #ccc;
+    text-align: center;
     
 }
 
@@ -137,11 +138,6 @@ body {
     box-sizing: border-box;}
 
 .text-color {
-    color: #fff; }
-
-.icon {
-    background: rgba(255, 255, 255, 0.15);
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
     color: #fff; }
 
 h3 {
@@ -293,6 +289,127 @@ sup {
     vertical-align: super;
     font-size: smaller;
 }
+
+
+.jpg {
+    width: 800px;
+	height: 250px;
+}
+
+.left-center {
+    float: left;
+	width: 160px;
+	position: relative; }
+
+.left-center1 {
+    float: left;
+	width: 150px;
+	position: relative; }
+
+.height-100 {
+    /* display: inline-block; */
+    width: auto;
+    height: auto;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+/* Icons */
+
+	
+.icon:before {
+            display: inline-block;
+			font-family: FontAwesome;
+			font-size: 1.35em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+            line-height: inherit;
+           	-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		
+
+/* Feature Icon */
+
+		.feature-icon .icon {
+			display: inline-block;
+			width: 2.3em;
+			height: 2.3em;
+			font-size: 4.5em;
+			border-radius: 100%;
+			box-shadow: inset 0 0 0 2px #ffc107;
+		/*	color: rgba(37, 138, 228, 0.6);  */
+			line-height: 2.3em;	
+            position: relative;
+            margin-left: 15px;
+            margin-top: 10px;
+}
+/*  выравнивание 5-6 */ 
+.feature-icon_1 .icon_1 {
+			display: inline-block;
+			width: 2.3em;
+			height: 2.3em;
+			font-size: 4.5em;
+			border-radius: 100%;
+			box-shadow: inset 0 0 0 2px #ffc107;
+		/*	color: rgba(37, 138, 228, 0.6);  */
+			line-height: 2.1em;
+            position: relative;
+            margin-left: 15px;
+            margin-top: 10px;
+}
+
+
+.color-1 {
+    color: #2196F3 ;}
+
+.color-2 {
+    color: #f5de17 ;}
+
+.color-3 {
+    color: #4CAF50 ;}
+
+.color-4 {
+    color: #2a82c7 ;}
+
+.color-5 {
+    color: #9C27B0 ;}
+
+.color-6 {
+    color: #e6430f ;}
+	
+.kr-str {
+    position: relative;
+    margin-left: 150px;
+    margin-top: 2px;
+}	
+
+.otstyp-170 {
+    position: relative;
+    margin-left: 170px;
+}
+
+
+.otstyp-150 {
+    position: relative;
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
