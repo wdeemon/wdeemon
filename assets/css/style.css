@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.25;
 }
 ol, ul {
 	list-style: none;
@@ -51,8 +51,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 	display: block;
 }
 body {
-	font: 12px/18px Arial, sans-serif;
+	font: 14px/18px Arial, sans-serif;
 	height: 100%;
+    background: #797979;
 }
 .wrapper {
 	width: 100%;
@@ -61,7 +62,10 @@ body {
 	height: auto !important;
 	height: 100%;
 }
-
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;}
 
 /* Header
 -----------------------------------------------------------------------------*/
@@ -118,73 +122,30 @@ body {
 
 /* My css
 -----------------------------------------------------------------------------*/
-.avatar:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: -3em;
-    width: 100%;
-    height: 1px;
-    z-index: -1;
-    background: #fff;
-    border: 1px;
 
-}
+.color-fff {   color: #fff; }
 
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;}
+.top-5 {margin-top: 7px;}
 
-.text-color {
-    color: #fff; }
+.top-3 {margin-top: 15px; margin-bottom: 7px;}
 
-h3 {
-    font-size: 2em;
-    color: #000;
-    text-align: left;}
-
-.p1 {
-    font-size: 1.25em;
-    margin-bottom: 3px;
+.p-justify {
     text-align: justify;
     text-indent: 30px;}
 
-.p {
+/*------------------------------------------ Н 1-6 */ 
+h1{
+    font-size: 2em; 
+}
+h2{
+    font-size: 1.5em;  
+}
+h3{
     font-size: 1.25em;
-    margin-bottom: 0px;}
-
-.text-center {
-    text-align: center;}
-
-.hr-50 {
-    width: 70%;
-    align-content: center;    }
-
-abbr {
-    border-bottom: 0px dashed red; /* Пунктирное подчеркивание текста */
-    color: #000; }
-
-
-.list-inline{
-    padding-left: 0;
-    margin-left: -5px;
-    list-style: none; }
-    
-.social-icons {
-    height: 40px;
-    font-size: 1.75em;
-    color: #000;
-    border-radius: 50%;
-    padding: 10px;
-    transition-duration: .3s;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.7,1,.7,1); }
-
-strong {font-weight: 600; }
-.b1 { font-weight: 550; }
-
+}
+h4{
+    font-size: 0.5em;
+}
 h5 {
     text-align: left;
     font-weight: 250; /* 700 */
@@ -195,6 +156,45 @@ h5 {
     font-size:  18px;
     display: block;
 }
+
+.center {
+    text-align: center;}
+
+.hr-50 {
+    width: 70%;
+    align-content: center;    }
+
+b { font-weight: 600; }
+
+/*--------------------------------------аватар */
+.avatar:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -3em;
+    width: 100%;
+    height: 1px;
+    z-index: -1;
+    background: #fff;
+    border: 1px;}
+
+.list-inline{
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none; }
+    
+.social-icons {
+    height: 40px;
+    font-size: 1.5em;
+   /* color: #000; */
+    border-radius: 50%;
+    padding: 10px;
+    transition-duration: .3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.7,1,.7,1); }
+
+/*----------------------------------- лента скилов */
 .color-heading {
     color: #000!important; /* 515769 */
 }
@@ -245,6 +245,7 @@ h5 {
     transition: width .6s ease;
 }
 
+/* ------------------------------------ цвета в скилах */
 .color-base {
     background: #515769!important;
 }
@@ -269,6 +270,8 @@ h5 {
     color: #000!important;
 }
 
+/* ----------------------------------- контейнер */
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -290,12 +293,7 @@ sup {
     font-size: smaller;
 }
 
-
-.jpg {
-    width: 800px;
-	height: 250px;
-}
-
+/* ---------------------------- каринки слева центра */
 .left-center {
     float: left;
 	width: 160px;
@@ -314,7 +312,7 @@ sup {
     vertical-align: bottom;
 }
 
-/* Icons */
+/* ------------------------------------------Icons */
 
 	
 .icon:before {
@@ -331,7 +329,7 @@ sup {
 
 		
 
-/* Feature Icon */
+/* -----------------------------------------Feature Icon */
 
 		.feature-icon .icon {
 			display: inline-block;
@@ -346,7 +344,7 @@ sup {
             margin-left: 15px;
             margin-top: 10px;
 }
-/*  выравнивание 5-6 */ 
+/* --------------------------------------- выравнивание 5-6 */ 
 .feature-icon_1 .icon_1 {
 			display: inline-block;
 			width: 2.3em;
@@ -361,6 +359,9 @@ sup {
             margin-top: 10px;
 }
 
+/* ---------------------------------------- цвета */
+.color-0 {
+    color: #000 ;}
 
 .color-1 {
     color: #2196F3 ;}
@@ -379,10 +380,15 @@ sup {
 
 .color-6 {
     color: #e6430f ;}
-	
+
+.color-7 {
+    background: #fff;}
+
+
+/* ---------------------------------- отступы в тексте */
 .kr-str {
     position: relative;
-    margin-left: 150px;
+    margin-left: 80px;
     margin-top: 2px;
 }	
 
@@ -398,6 +404,7 @@ sup {
 }
 
 
+/* ------------ */
 
 
 
@@ -412,4 +419,6 @@ sup {
 
 
 
-
+abbr {
+    border-bottom: 0px dashed red; /* Пунктирное подчеркивание текста */
+    color: #000; }
