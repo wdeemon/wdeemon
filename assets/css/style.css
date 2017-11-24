@@ -437,8 +437,21 @@ a:hover, a:focus,
 }
 
 
+.tab_3 {
+    position: relative; 
+    height: auto;
+    width: 390px;
+    text-align: center;
+    overflow: hidden; 
+    
+}
 
-
+.mini_icon_0 {
+    height: auto;
+  /*  width: 125px; */
+    margin-top: 5px;  
+    
+}
 
 
 
